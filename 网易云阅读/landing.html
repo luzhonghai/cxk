@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云阅读登录界面</title>
+		<style type="text/css">
+			div,table,tr,td,h4,h1,a,ul,li{
+				margin: 0;
+				padding: 0;
+				border: 0;
+			}
+			#biao{
+				width: 550px ;
+				height: 356px;
+				margin: 100px auto;
+				font-size: 14px;
+				color: #888888;
+				border: 1px solid #C1C4C7;
+			}
+			table{
+				float:left;
+				width: 221px;
+			}
+			.kuan{
+				width: 216px;
+				height: 32px;
+				border: 1px solid #888888;
+				color: #C1C4C7;
+				padding-left: 5px;
+			}
+			button{
+				display: inline-block;
+				height: 30px;
+				width: 221px;
+				background-image: url(imges/蓝色登录按钮.png);
+				border: 0;
+			}
+			h1{
+				width: 500px;
+				height: 60px;
+				font-weight: 400;
+				font-size: 25px;
+				color: black;
+				line-height: 60px;
+				padding-left: 50px;
+				margin: 0;
+				background-image: url(imges/绿色手机.png);
+				background-position: 15px center;
+				background-repeat: no-repeat;
+				background-color: #f7f7f7;
+			}
+			tr{
+				display: block;
+				margin:12px;
+			}
+			table{
+				margin: 52px 10px 0 40px;
+				border-right: dashed 1px #888888;
+			}
+			.other{
+				float: left;
+				margin: 12px 0 0 40px;
+			}
+			.other h4{
+				margin-top:25px ;
+			}
+			
+			.other ul li{
+				list-style: none;
+				margin-top: 8px;
+			}
+			.other ul li a{
+				display: inline-block;
+				width: 140px;
+				height: 40px;
+				background-color: #D26960;
+			}
+			.other .email{
+				background-image: url(imges/邮箱登陆.png);
+			}
+			.other .xinglang{
+				background-image: url(imges/新浪微博.png);
+			}
+			.other .tengxun{
+				background-image: url(imges/腾讯微博.png);
+			}
+			.other .weixin{
+				background-image: url(imges/微信.png);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="biao">
+			<h1>手机号登录 <a href="index.html"><img src="imges/叉叉.png" align="right" height="100%"/></a></h1>
+			<div class="dabox">
+			<!--左边部分开始-->
+			<table cellspacing="0" cellpadding="0">
+				<tr>
+					<td colspan="2"><input type="text" name="" id="" value="手机号码登录" class="kuan"/></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="text" name="" id="" value="登录密码" class="kuan"/></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="" id="" value=""/>两周内自动登录</td><td align="right" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 忘记密码？</td>
+				</tr>
+				<tr>
+					<td colspan="2"><button></button></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有账号，免费注册</a></td>
+				</tr>
+			</table>
+		<!--左边部分结束-->
+			<!--右边部分开始-->
+				<div class="other">
+					<h4>其他账号登录</h4>
+					<ul>
+						<li><a href="" class="email"></a></li>
+						<li><a href="" class="xinglang"></a></li>
+						<li><a href="" class="tengxun"></a></li>
+						<li><a href="" class="weixin"></a></li>
+					</ul>
+				</div>
+			<!--右边部分结束-->
+			</div>
+		</div>
+	</body>
+</html>

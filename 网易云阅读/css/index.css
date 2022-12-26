@@ -1,0 +1,279 @@
+body,img,h4,h3,h1,button,div,a,p,span,ul,li,br{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a{
+	text-decoration: none;
+	color: #888888;
+}
+a:hover{
+	color: #cf5e54;
+}
+li{
+   	list-style: none;
+}
+.w{
+	margin: 0 auto;
+}
+.header{
+	height: 36px;
+	border: solid #f6f6f6 2px;
+	
+}
+.muLu{
+	width: 990px;
+	color: #c1c4c7; 
+	font-size: 12px;
+	line-height: 36px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .muLu li{
+	float: left;
+}
+.header .denglu li{
+	float: right;
+}
+.header li span{			/*共用*/
+	padding: 0 15px;
+}
+.header ul{					/*共用*/
+	list-style: none;
+}
+.sousuo{
+	height: 40px;
+	width: 990px;
+    margin: 40px auto;
+}
+.sousuo .logo img{
+	height: 100px;
+}
+.sousuo .logo{
+	float: left;
+	padding-left: 45px;
+	padding-right: 90px;
+	height: 40px;
+	background-image: url(../imges/读.png);
+	background-repeat: no-repeat;
+}
+.sousuo .logo h1{
+	font-weight: 400;
+	font-size: 30PX;
+}
+.sousuo input{
+	float: left;
+	height: 39px;
+	width: 400px;
+	border: 1px #d26960 solid;
+	color: #C1C4C7;
+} 
+.sousuo button{
+	float: left;
+	display: inline-block;
+	height: 42px;
+	width: 42px;
+	background-image: url(../imges/搜索图.png);
+}
+.sousuo .gongnen{
+	width: 200px;
+}
+.sousuo .right {
+	float: right;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	background-image: url(../imges/灰色书架.png);
+	background-repeat: no-repeat;
+	background-position:3px center;
+	padding:0 10px 0 25px;
+	border: 1px solid #C1C4C7;
+}
+.sousuo .left {
+	float: right;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	background-image: url(../imges/灰色标签.png);
+	background-repeat: no-repeat;
+	background-position:3px center;
+	padding:0 10px 0 25px;
+	border: 1px solid #C1C4C7;
+}
+.sousuo .text{
+	padding-left: 10px;
+}
+.daohang{
+	width: 985px;
+	height: 32px;
+	border-bottom: 2px solid #665656;
+}
+.daohang .d-left{
+	float: left;
+}
+.daohang .d-left li{
+	float: left;
+	font-size: 16px;
+	padding: 0 12px 11px 12px;
+	font-weight: 700;
+}
+.daohang .d-left .xuanzhong{
+	border-bottom: 2px solid crimson;
+}
+.daohang .d-left .xuanzhong a{
+	color: #cf5e54;
+}
+.daohang .d-left li:hover{
+	border-bottom: 2px solid crimson;
+}
+.daohang .d-right li{
+	height: 30px;
+	float: right; 
+	margin: 0 10px;
+}
+.daohang .d-right .one{
+	background-image: url(../imges/红色笔.png);
+	background-repeat: no-repeat;
+	background-position:5px center; padding-left: 30px;
+}
+.daohang .d-right .two{
+	background-image: url(../imges/红色充值.png);
+	background-repeat: no-repeat;
+	background-position:5px center; padding-left: 30px;
+}
+.daohang .d-right .three{
+	background-image: url(../imges/红色手机.png);
+	background-repeat: no-repeat;
+	background-position:5px center; padding-left: 30px;
+}
+.main{
+	width: 985px;
+	height: 380px;
+	margin-top: 20px;
+	padding: 12px;
+	
+}
+.main .nav{
+	float: left;
+	width: 240px;
+	height: 380px;
+	border: 2px solid #665656;
+}
+.main .nav ul{
+	padding: 5px 10px 11.5px 10px;
+	border-bottom: 1px solid #888888;
+	overflow: hidden;
+	margin: 0 auto;	
+}
+.main .nav .none{
+	border: 0;
+}
+.main .photo{
+	float: right;
+	width: 720px;
+	height: 380px;
+	background-image: url(../imges/飞行家.png);
+}
+.main .nav li{
+	float: left;
+	width: 72px;
+	margin: 2px 0;
+	
+}
+.main .nav li a{
+	font-size: 12px;
+	padding: 6px;
+}
+.main .nav li span{
+	color: #888888;
+}
+.main .nav h3{
+	display: block;
+	padding-left: 16px;
+	padding-top: 6px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.bottom-nav{
+	width: 990px;
+	height: 38px ;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.bottom-nav h4{
+	float: left;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 38px;
+	margin-right: 8px;
+}
+.bottom-nav ul{
+	float: left;
+}
+.bottom-nav li{
+	float: left;
+	line-height: 38px;
+}
+.bottom-nav ul li span{
+	margin: 0 10px;
+}
+.box{
+	width: 982px;
+	height: 200px;
+	border: 1px solid #f0ece8;
+	border-left: none;
+}
+.box div{
+	float: left;
+	width: 325px;
+	height: 200px;
+	color: #111;
+	font-weight: 400;
+	border-left: 1px solid #f0ece8;
+	padding: 18px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+.box .listone{
+	padding-left: 145PX;
+	background-image: url(../imges/大地产商.png);
+	background-repeat: no-repeat;
+	background-position:18px 18px;
+}
+.box .listtwo{
+	padding-left: 145PX;
+	background-image: url(../imges/夜行者.png);
+	background-repeat: no-repeat;
+	background-position:18px 18px;
+}
+.box .listthree{
+	padding-left: 145PX;
+	background-image: url(../imges/沉鱼记.png);
+	background-repeat: no-repeat;
+	background-position:18px 18px;
+}
+.box p{
+	font-size: 12px;
+	color: #888888;
+	line-height: 18px;
+	margin: 5px 0;
+}
+.box a{
+	font-size: 12px;
+	font-weight: 700;
+	color: #111;
+}
+.box a:hover{
+	color: #cf5e54;
+}
+.t-logo {
+	position: fixed;
+	height: 64px;
+	width: 64px;
+	left: 50%;
+	bottom: 30px;
+	margin-left: 500px;
+}
+
+
+
